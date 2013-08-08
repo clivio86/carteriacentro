@@ -18,14 +18,14 @@
  
         <meta name="description" content="">
  
-        <meta name="author" content="">
+        <meta name="author" content="Clivio Fenili">
  
         <meta name="viewport" content="width=device-width,initial-scale=1">
  
  <!-- Inserito il programma less per il css-->
 	<link rel="stylesheet/less" type="text/css" href="<?php bloginfo( 'template_url'); ?>/less/style.less">
  	<script src="<?php bloginfo( 'template_url'); ?>/js/libs/less.js" type="text/javascript"></script>
-
+    <script src="<?php bloginfo( 'template_url'); ?>/js/libs/modernizr-2.0.6.min.js"></script>
 			 
         <script src="js/libs/modernizr.min.js"></script>
  

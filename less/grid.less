@@ -24,39 +24,39 @@
 .grid_12 { .larghezza(12,22); .colonna-base;}
 
 .colonna {
-	margin: 0 @margine;
-	overflow: hidden;
-	float: left;
-	display: inline;
+  margin: 0 @margine;
+  overflow: hidden;
+  float: left;
+  display: inline;
 }
 .riga {
-	width: @totLarghezza;
-	margin: 0 auto;
-	overflow: hidden;
+  width: @totLarghezza;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .riga .riga {
-	margin: 0 (@margine * -1);
-	width: auto;
-	display: inline-block;
+  margin: 0 (@margine * -1);
+  width: auto;
+  display: inline-block;
 }
 
 /* Grid Span */
 .span(@n: 1){
-	width: (@larghezzaColonna * @n) + (@margine  * @n);
+  width: (@larghezzaColonna * @n) + (@margine  * @n);
 }
 .colonna-base(){
-	position: relative;
-	float: left;
-	margin-right: @margine;
-	margin-left: @margine;
+  position: relative;
+  float: left;
+  margin-right: @margine;
+  margin-left: @margine;
 }
 .colonne(@n: 1){
-	.span(@n);
-	.colonna-base();
+  .span(@n);
+  .colonna-base();
 }
 .contenitore(){
-	
-	width: @totLarghezza;
-	margin:  0 auto;
-	position: relative;
+  
+  width: @totLarghezza;
+  margin:  0 auto;
+  position: relative;
 }
