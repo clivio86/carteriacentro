@@ -1,10 +1,29 @@
 <?php
+
 /*
- * Questo file conterra' alcune regole principali per il nostro tema
- * ma per mantenere la struttura dei file WordPress il piu'
- * organizzata possibile saltuariamente caricheremo file dalla
- * cartella inc/ 
+ * In questo file posso inserire tutti le mie personalizzazioni,
+ * ma per una miglior consultazione andro' a collegare i file esterni
+ * per compiti specifici.
  */
  
- //Carico il file esterno per le impostazioni del tema
- require_once( TEMPLATEPATH . 'inc/impostazioni_tema.php');
+ /* 
+  * Richiamo il file che mi permettera'
+  * di aggiungere personalizzazioni da parte dell'utente
+  */
+  
+  	require_once( 'inc/impostazioni_tema.php');
+  
+	// Rendo il tema disponibile alle traduzioni
+	// Le traduzioni potranno essere trovate dentro la cartella /languages/
+	function localizzo_tema(){
+	
+		load_theme_textdomain( 'templatezero', TEMPLATEPATH . '/languages' );
+	
+		$locale = get_locale();
+	
+		$locale_file = TEMPLATEPATH . "/languages/$locale.php";
+	
+		if ( is_readable($locale_file) ) require_once($locale_file);
+	}
+	
+	add_action( 'after_setup_theme', 'localizzo_tema' );
