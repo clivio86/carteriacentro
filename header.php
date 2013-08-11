@@ -34,9 +34,27 @@
     <body>
  
         <div id="container">
+
+<header>
+    <img id="logo" src="<?php echo $opzioni['logo']; ?>" alt="<?php bloginfo( 'name' ); ?> Logo" />
  
-            <header>
+    <hgroup>
+        <h1 id="titolo-sito"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+        <h2 id="descrizione-sito"><?php bloginfo( 'description' ); ?></h2>
+    </hgroup>
  
-            </header>
+</header>
  
-<!-- Fine Header -->
+<nav>
+    <?php wp_nav_menu( 'principale' ); ?>
+</nav>
+
+ <body>
+    <?php $opzioni = get_option( 'opt_impostazioni_tema' ); ?>
+ 
+    <div id="container">
+ 
+        <header>
+            <img id="logo" src="<?php echo $opzioni['logo']; ?>" title="<?php bloginfo( 'name' ); ?> Logo" />
+        </header>
+    <!-- Fine Header -->

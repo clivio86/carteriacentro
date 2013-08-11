@@ -13,8 +13,8 @@
   
   	require_once( 'inc/impostazioni_tema.php');
   
-	// Rendo il tema disponibile alle traduzioni
-	// Le traduzioni potranno essere trovate dentro la cartella /languages/
+// Rendo il tema disponibile alle traduzioni
+// Le traduzioni potranno essere trovate dentro la cartella /languages/
 	function localizzo_tema(){
 	
 		load_theme_textdomain( 'templatezero', TEMPLATEPATH . '/languages' );
@@ -27,3 +27,8 @@
 	}
 	
 	add_action( 'after_setup_theme', 'localizzo_tema' );
+	
+// Creo il mio primo menu
+	if( function_exists( 'register_nav_menu' ) ){
+    	register_nav_menu( 'principale', 'Header Menu' );
+	}
