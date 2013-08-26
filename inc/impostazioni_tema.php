@@ -81,3 +81,12 @@ add_action( 'admin_init', 'impostazioni_tema_init_cb' );
 
 add_action('admin_menu', 'pagina_impostazioni_tema_cb');
 
+
+
+
+
+
+
+
+
+

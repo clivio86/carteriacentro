@@ -1,7 +1,10 @@
-<footer>
- 
-            </footer>
-        </div> <!-- /#container -->
-    </body>
+<!-- Inizio Footer -->
+		<footer>
+		 	<p>Footer</p>
+		</footer>
+		
+	</div> <!-- /#container -->
+	 
+</body>
 </html>
 <!-- Fine Footer -->
