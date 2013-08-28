@@ -10,3 +10,54 @@ License: GNU General Public License
 License URI: license.txt
 Version: 0.0.2
 */
+
+
+#main{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+footer{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+//BODY
+
+body.home {
+	background-image:url('../img/sfondo.jpg');
+}
+
+
+//SFONDO
+div#container {
+	margin: 0 auto;
+	overflow: auto;
+}
+
+//LOGO
+img#logo {
+	width:400px;
+	height:173px;
+	border: none;
+}
+
+//MENU HEAD
+
+img.menuHead {
+	width: 150px;
+	height: 58px;
+	border: none;	
+}
+
+
+//STRUTTURA
+header{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}

@@ -13,25 +13,22 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet/less" href="<?php bloginfo( 'stylesheet_directory'); ?>/less/style.less">
-	<script src="<?php bloginfo( 'template_url' ); ?>/js/libs/less.js"></script>
-	<script src="<?php bloginfo( 'template_url' ); ?>/js/libs/modernizr.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory'); ?>/style.css">
 	<?php wp_head(); ?>
 </head>
  
-<body <?php body_class(); ?>>
+<body class="home">
  	<?php $opzioni = get_option( 'opt_impostazioni_tema' ); ?>
-	<div id="sfondo">
 	<div id="container">
 	 
 		<header>
 		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" id="logo" />
 		 	
 		 	<!-- Menu -->
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" />
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" />
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" />
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" />
 		 	
 		 	
 		 	<!-- <hgroup>
