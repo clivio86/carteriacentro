@@ -8,8 +8,7 @@
 		</nav>
 		
 	</div> <!-- /#container -->
-</div> <!-- /#Sfondo -->
-	 
+ 
 </body>
 </html>
 <!-- Fine Footer -->

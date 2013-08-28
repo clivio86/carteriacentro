@@ -19,9 +19,8 @@
 	<?php wp_head(); ?>
 </head>
  
-<body <?php body_class(); ?>>
+<body class=standard>
  	<?php $opzioni = get_option( 'opt_impostazioni_tema' ); ?>
-	<div id="sfondo">
 	<div id="container">
 	 
 		<header>
@@ -34,19 +33,6 @@
 		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" />
 		 	
 		 	
-		 	<!-- <hgroup>
-		 		<?php if( !is_single() ) : ?>
-		 			
-				  <h1 id="titolo-sito"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				  <h2 id="descrizione-sito"><?php bloginfo( 'description' ); ?></h2>
-				  
-				<?php else : ?>
-					
-				  <h2 id="titolo-sito"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
-				  <h3 id="descrizione-sito"><?php bloginfo( 'description' ); ?></h3>
-				  
-				<?php endif; ?> 	
-			</hgroup> -->
 			
 			
 		</header>

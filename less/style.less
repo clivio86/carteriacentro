@@ -1,11 +1,16 @@
 @import "grid";
 @import "classes";
 
+html {
+	margin-top: 0 !important;
+}
+
 #container{
 	.contenitore();
 }
 header{
-	.riga();
+	.rigaHEAD();
+	border: 2px;
 }
 
 #main{
@@ -29,9 +34,9 @@ footer{
 // Sistemo il layout della pagina singola
 .single #container{
 
-  #main{ .grid_9(); }
+  #main{ .riga() }
 
-  aside{ .grid_3(); }
+//  aside{ .grid_3(); }
 
 }
 
@@ -187,27 +192,23 @@ footer{
  
 
 //SFONDO
-div#sfondo {
+body.standard {
 	background-image:url('../img/sfondo.jpg');
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	margin: -8px 0px 0px -8px;
-	padding: 8px;
-	overflow: auto;
 }
+
 
 //MENU HEAD
 
 img.menuHead {
-	width: 150px;
-	height: 58px;
+	width: 91px;
+	height: 35px;
 	border: none;	
 }
 
 //LOGO
 img#logo {
-	width:400px;
-	height:173px;
+	width:370px;
+	height:160px;
 	border: none;
 }
