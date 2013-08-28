@@ -1,4 +1,4 @@
-<div id="comments">
+<!-- <div id="comments">
 
 	<h3 id="comments-title">
 		<?php _e('Commenti', 'am_template'); ?>
@@ -23,4 +23,4 @@
 	<?php 
 		wp_list_comments( ); 	
 	?>
-</ol>
+</ol>  -->

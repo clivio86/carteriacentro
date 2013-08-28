@@ -1,7 +1,7 @@
 <!-- Inizio Sidebar -->
 		<aside>
 			<?php if ( !dynamic_sidebar( 'principale-sidebar' ) ) : ?>
-		 	<div class="widget search">
+		 	<!-- <div class="widget search">
 			    <?php get_search_form(); ?>
 	      </div>
 			
@@ -21,7 +21,7 @@
     			<ul>
         			<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>     
     			</ul>
-			</div>
+			</div> -->
 			<?php endif; ?>
 		</aside>
 <!-- Fine Sidebar -->
