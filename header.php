@@ -25,13 +25,13 @@
 	<div id="container">
 	 
 		<header>
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" id="logo" />
+		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" />
 		 	
 		 	<!-- Menu -->
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" />
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" />
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" />
-		 	<img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" />
+		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" />
 		 	
 		 	
 		 	<!-- <hgroup>
