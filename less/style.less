@@ -10,11 +10,10 @@ html {
 }
 header{
 	.rigaHEAD();
-	border: 2px;
 }
 
 #main{
-	.riga();
+	.rigaHEAD();
 	
 	#benvenuto{
         background: #FFFFE0;
@@ -23,18 +22,18 @@ header{
    }
 }
 
-// aside{
-// 	.grid_4();
-// }
+ aside{
+ 	.rigaHEAD();
+ }
 
 footer{
-	.riga();
+	.rigaHEAD();
 }
 
 // Sistemo il layout della pagina singola
 .single #container{
 
-  #main{ .riga() }
+  #main{ .rigaHEAD(); }
 
 //  aside{ .grid_3(); }
 
@@ -195,6 +194,8 @@ footer{
 body.standard {
 	background-image:url('../img/sfondo.jpg');
 	background-repeat: no-repeat;
+	font-family: Gill Sans MT, Arial;
+
 }
 
 
@@ -203,7 +204,8 @@ body.standard {
 img.menuHead {
 	width: 91px;
 	height: 35px;
-	border: none;	
+	border: none;
+	margin-left: 85px;	
 }
 
 //LOGO
@@ -211,4 +213,25 @@ img#logo {
 	width:370px;
 	height:160px;
 	border: none;
+}
+
+article {
+	background-image:url('../img/foglio.png');
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-left: 100px
+	min-height: 600px;
+	min-width: 894px;
+	padding: 55px 94px 0px;
+}
+
+
+//CONTENUTO ARTICOLO
+contenuto-art {
+	padding: 30px 30px 30px 30px;
+}
+
+//FOOTER
+div.footer {
+	text-align: right;
 }

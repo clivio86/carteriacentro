@@ -34,7 +34,7 @@
 			  	</section>
 			 
 			  	<footer>
-			    	<?php the_tags('Etichette', ', ', '.'); ?>
+			    	<!-- <?php the_tags('Etichette', ', ', '.'); ?> -->
 			  	</footer>
 			</article>
 			

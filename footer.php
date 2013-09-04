@@ -1,11 +1,11 @@
 <!-- Inizio Footer -->
 		<footer>
-		 	<p>Inserire dati obbligatori: Ragione Sociale, Indirizzo, P.IVA...</p>
+		 	<div class=footer>La Carteria del Centro - via A. Serpieri, 30 - 47921 Rimini RN - P.IVA: 02064210400 - info@lacarteriadelcentro.it</div>
 		</footer>
 		
-		<nav>
-		    <?php wp_nav_menu(  ); ?>
-		</nav>
+		<!-- Inizio NAVIGAZIONE -->
+		<?php wp_nav_menu (array('container_class' => 'menuFooter', 'theme_location' => 'nav_uno')); ?>
+		<!--Fine NAVIGAZIONE-->
 		
 	</div> <!-- /#container -->
  

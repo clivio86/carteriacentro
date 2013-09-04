@@ -29,8 +29,12 @@
 	add_action( 'after_setup_theme', 'localizzo_tema' );
 	
 	// Creo il mio primo menu
-	if( function_exists( 'register_nav_menu' ) ){
-		register_nav_menu( 'principale', 'Header Menu' );
+	if ( function_exists( 'register_nav_menus' ) ) {
+    	register_nav_menus(
+        	array(
+        	'nav_uno' => 'Menu Uno',
+        	)
+    	);
 	}
 	
 	function zero_widget_area(){
