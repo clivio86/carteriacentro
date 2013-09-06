@@ -37,6 +37,7 @@
     	);
 	}
 	
+	
 	function zero_widget_area(){
 	    register_sidebar(
 	        array(

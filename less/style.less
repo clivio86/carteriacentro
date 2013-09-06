@@ -203,6 +203,18 @@ img {
 	border: 0px;
 }
 
+
+// LINK:
+a {
+	font-weight: normal;
+	text-decoration: none;	
+	color: #111;
+}
+a:hover {
+	text-decoration: none;
+	color: #555;
+}
+
 //MENU HEAD
 
 img.menuHead {
@@ -265,10 +277,48 @@ contenuto-art {
 	padding: 30px 30px 30px 30px;
 }
 
+
 //FOOTER
 div.piepagina {
-	text-align: right;
 	padding-right: 100px;
+	float: right;
+	text-align: right;
+	padding-top: 0px;
+	color: #111;
+}
+
+//MENUFOOTER
+.menu {
+	float: left;
+	margin-left: 65px;
+}
+.menu ul li {
+	list-style-type: none;
+	float: left;
+	padding:0 12px 0 12px;
+	border-left:2px solid #666;
+}
+
+// rimuove il padding dal "primo figlio", dal primo LI 
+.menu ul li:first-child {
+padding:0 12px 0 0;
+border: none;
+}
+
+// rimuove il bordo "dall'ultimo figlio", LI 
+.menu ul li:last-child {
+padding:0 0 0 12px;
+}
+
+
+.menu ul li a {
+	font-weight: normal;
+	text-decoration: none;	
+	color: #111;
+}
+.menu ul li a:hover {
+	text-decoration: none;
+	color: #555;
 }
 
 
