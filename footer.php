@@ -1,6 +1,6 @@
 <!-- Inizio Footer -->
 		<footer>
-		 	<div class=piepagina>La Carteria del Centro - via A. Serpieri, 30 - 47921 Rimini RN - P.IVA: 02064210400 - info@lacarteriadelcentro.it</div>
+		 	<div class=piepagina>La Carteria del Centro - Via A. Serpieri, 30 - 47921 Rimini RN - P.IVA: 02064210400 - info@lacarteriadelcentro.it</div>
 		</footer>
 		
 		<!-- Inizio NAVIGAZIONE -->

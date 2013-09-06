@@ -28,9 +28,9 @@
 		 	
 		 	<!-- Menu -->
 		 	<a href="http://testclivio.riminiforfun.it/chi-siamo/"><img src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" /></a>
-		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" />
-		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" />
-		 	<img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" />
+		 	<a href="http://testclivio.riminiforfun.it/bijoux/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" /></a>
+		 	<a href="http://testclivio.riminiforfun.it/bomboniere/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" /></a>
+		 	<a href="http://testclivio.riminiforfun.it/album/"><img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" /></a>
 		 	
 		 	
 			
