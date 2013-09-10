@@ -3,12 +3,12 @@
 <!-- Inizio Content -->
 		<div id="main" role="main">
 			
-			<?php dynamic_sidebar( 'benvenuto' ); ?>
-			
+		
 		   <?php if (have_posts()) : while (have_posts()) : the_post(); ?> 	
 		  
 		   	<article>
 			  	<header>
+		
 			    	
 			  	</header>
 			 
@@ -28,7 +28,5 @@
 			<?php endif; ?>
 		</div>
 <!-- Fine Content -->
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
