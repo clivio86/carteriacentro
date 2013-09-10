@@ -22,9 +22,9 @@
 <body class=standard>
  	<?php $opzioni = get_option( 'opt_impostazioni_tema' ); ?>
 	<div id="container">
-	 
+	 <?php get_sidebar(); ?>
 
-		<header><?php get_sidebar(); ?>
+		<header>
 		 	<div class="menuneltop" />
 		 	
 		 		
@@ -32,6 +32,7 @@
 		 		
 		 		<?php
 		 			if (get_bloginfo("language")=="it-IT"){ ?>
+		 				<!-- Italiano -->
 							<a href="http://testclivio.riminiforfun.it/"><img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" /></a>
 							<a href="http://testclivio.riminiforfun.it/it/about-us/"><img src="<?php bloginfo( 'template_url' ); ?>/img/chi-siamo.gif" title="Chi Siamo" class="menuHead" /></a>
 		 					<a href="http://testclivio.riminiforfun.it/it/jewellery/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" /></a>
@@ -39,6 +40,7 @@
 		 					<a href="http://testclivio.riminiforfun.it/it/album-and-objects/"><img src="<?php bloginfo( 'template_url' ); ?>/img/album-e-oggetti.gif" title="Album e Oggetti" class="menuHead" /></a>
 		 					
 		<?php	 		} elseif (get_bloginfo("language")=="ru-RU"){  ?>
+								<!-- Russo -->
 								<a href="http://testclivio.riminiforfun.it/"><img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" /></a>
 								<a href="http://testclivio.riminiforfun.it/ru/about-us/"><img src="<?php bloginfo( 'template_url' ); ?>/img/chi-siamo.gif" title="Chi Siamo" class="menuHead" /></a>
 			 					<a href="http://testclivio.riminiforfun.it/ru/jewellery/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" /></a>
@@ -46,6 +48,7 @@
 		 						<a href="http://testclivio.riminiforfun.it/ru/album-and-objects/"><img src="<?php bloginfo( 'template_url' ); ?>/img/album-e-oggetti.gif" title="Album e Oggetti" class="menuHead" /></a>
 		 								 			
 		<?php				} else { ?>
+									<!-- Inglese -->
 		 							<a href="http://testclivio.riminiforfun.it/"><img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" /></a>
 									<a href="http://testclivio.riminiforfun.it/about-us/"><img src="<?php bloginfo( 'template_url' ); ?>/img/chi-siamo.gif" title="Chi Siamo" class="menuHead" /></a>
 				 					<a href="http://testclivio.riminiforfun.it/jewellery/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" /></a>
@@ -54,7 +57,7 @@
 		<?php		}
 				?>		 		
 	     	</div>
-		<div style="clear:both;"> </div>
+		<div class="clear"> </div>
     	</header>
 		
 		<!-- Fine Header -->

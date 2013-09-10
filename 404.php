@@ -7,20 +7,22 @@
 				  	</header>
 			 
 			  	<section class="contenuto-art">
-	   		 		<!--:en-->
-		 			<h1>Page not found</h1>
-	       			<p>We are sorry but we cann't find the page you were looking for.</p>
-        			<!--:-->
-		 			<!--:it-->
-        			<h1>Pagina Non Trovata</h1>
-        			<p>Siamo spiacenti ma non riusciamo a trovare la pagina che stavi cercando.</p>
-        			<p>Ecco che cosa potresti fare:</p>
-        			<!--:-->
-		 			<!--:ru-->
-		 			<h1>Страница не найдена</h1>
-        			<p>Мы сожалеем, но мы не можем найти страницу, которую вы искали.</p>
-         			<!--:-->
-			  		</section>
+	   	 		<?php
+		 			if (get_bloginfo("language")=="it-IT"){ ?>
+		 					<!-- italiano -->
+		 					<h1>Pagina Non Trovata</h1>
+        					<p>Siamo spiacenti ma non riusciamo a trovare la pagina che stavi cercando.</p> 					
+		<?php	 		} elseif (get_bloginfo("language")=="ru-RU"){  ?>
+								<!-- RUSSO -->
+		 						<h1>Страница не найдена</h1>
+        						<p>Мы сожалеем, но мы не можем найти страницу, которую вы искали.</p>	 			
+		<?php				} else { ?>
+									<!-- Inglese -->
+		 							<h1>Page not found</h1>
+	       							<p>We are sorry but we cann't find the page you were looking for.</p>		
+	       					
+		<?php		}
+				?>		
 				 
 			  	<footer>
 			    	</footer>

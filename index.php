@@ -8,17 +8,14 @@
 		  
 		   	<article>
 			  	<header>
-
-			    	
-			  	</header>
+				  	</header>
 			 
 			  	<section class="contenuto-art">
 			    	<?php the_content( "Continua a Leggere" ); ?>
 			  	</section>
 			 
 			  	<footer>
-			    	<!-- <?php the_tags('Etichette', ', ', '.'); ?> -->
-			  	</footer>
+				  	</footer>
 			</article>
 			
 			<?php endwhile; else: ?>
