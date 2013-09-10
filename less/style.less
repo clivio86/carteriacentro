@@ -7,6 +7,7 @@ html {
 
 #container{
 	.contenitore();
+	text-align: center;
 }
 header{
 	.rigaHEAD();
@@ -22,9 +23,47 @@ header{
    }
 }
 
- aside{
- 	.rigaHEAD();
- }
+//ASIDE MENU QTRANSLATE
+aside{
+	text-align: right;
+	padding-right: 65px;
+	float: right;
+}
+
+.menuneltop{
+	float: left;	
+}
+aside ul li {
+	list-style-type: none;
+	padding:0 12px 0 12px;
+	border-left:2px solid #666;
+	display: inline;
+}
+
+// rimuove il padding dal "primo figlio", dal primo LI 
+aside ul li:first-child {
+	padding:0 12px 0 0;
+	border: none;
+	display: inline;
+}
+
+// rimuove il bordo "dall'ultimo figlio", LI 
+aside ul li:last-child {
+	padding:0 0 0 12px;
+	display: inline;
+}
+aside ul li a {
+	font-weight: normal;
+	text-decoration: none;	
+	color: #8d202f;
+}
+aside ul li a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+
+
 
 footer{
 	.rigaHEAD();
@@ -196,6 +235,7 @@ body.standard {
 	background-repeat: no-repeat;
 	font-family: Gill Sans MT, Arial;
 	color: #555;
+	background-position: center center;
 }
 
 // IMMAGINI GENERICHE 

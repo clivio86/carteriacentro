@@ -23,19 +23,20 @@
  	<?php $opzioni = get_option( 'opt_impostazioni_tema' ); ?>
 	<div id="container">
 	 
-		<header>
-		 	<a href="http://testclivio.riminiforfun.it/"><img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" /></a>
+
+		<header><?php get_sidebar(); ?>
+		 	<div class="menuneltop" />
 		 	
-		 	<!-- Menu -->
-		 	<a href="http://testclivio.riminiforfun.it/chi-siamo/"><img src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" /></a>
-		 	<a href="http://testclivio.riminiforfun.it/bijoux/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" /></a>
-		 	<a href="http://testclivio.riminiforfun.it/bomboniere/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" /></a>
-		 	<a href="http://testclivio.riminiforfun.it/album/"><img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" /></a>
+		 		<a href="http://testclivio.riminiforfun.it/"><img id="logo" src="<?php bloginfo( 'template_url' ); ?>/img/logo.gif" title="<?php bloginfo( 'name' ); ?> Logo" /></a>
 		 	
-		 	
-			
-			
-		</header>
+		 		<!-- Menu -->
+		 		<a href="http://testclivio.riminiforfun.it/chi-siamo/"><img src="<?php bloginfo( 'template_url' ); ?>/img/chi_siamo.gif" title="Chi Siamo" class="menuHead" /></a>
+		 		<a href="http://testclivio.riminiforfun.it/bijoux/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bijoux.gif" title="Bijoux" class="menuHead" /></a>
+		 		<a href="http://testclivio.riminiforfun.it/bomboniere/"><img src="<?php bloginfo( 'template_url' ); ?>/img/bomboniere.gif" title="Bomboniere" class="menuHead" /></a>
+		 		<a href="http://testclivio.riminiforfun.it/album/"><img src="<?php bloginfo( 'template_url' ); ?>/img/album.gif" title="Album e Oggetti" class="menuHead" /></a>
+	     	</div>
+		<div style="clear:both;"> </div>
+    	</header>
 		
 		<!-- Fine Header -->
 		
