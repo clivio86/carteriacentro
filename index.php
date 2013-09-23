@@ -7,15 +7,13 @@
 		   <?php if (have_posts()) : while (have_posts()) : the_post(); ?> 	
 		  
 		   	<article>
-			  	<header>
-				  	</header>
+			  	<header></header>
 			 
 			  	<section class="contenuto-art">
 			    	<?php the_content( "Continua a Leggere" ); ?>
 			  	</section>
 			 
-			  	<footer>
-				  	</footer>
+			  	<footer></footer>
 			</article>
 			
 			<?php endwhile; else: ?>

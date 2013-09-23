@@ -11,12 +11,7 @@ header{
 
 #main{
 	.rigaHEAD();
-	height: 730px;
-	#benvenuto{
-        background: #FFFFE0;
-        border: 2px solid #E6DB55;
-        padding: 10px 10px 10px 10px;
-   }
+	height: 700px;
 }
 
 //ASIDE MENU QTRANSLATE
@@ -26,7 +21,8 @@ aside{
 }
 
 .menuneltop{
-	float: left;	
+	float: left;
+	display:inline;	
 }
 aside ul li {
 	list-style-type: none;
@@ -110,6 +106,7 @@ footer{
         img{
         	float: left;
         	margin: 0px 10px 0px 0px;
+        	display:inline;
         }
       }
     }
@@ -233,6 +230,11 @@ body.standard {
 	background-position: center center;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
+}
+
+div {
+	overflow: hidden;
 }
 
 // IMMAGINI GENERICHE 
@@ -255,10 +257,10 @@ a:hover {
 //MENU HEAD
 
 img.menuHead {
-	width: 91px;
+	width: auto;
 	height: 35px;
 	border: none;
-	margin: 0px 0px 0px 85px;	
+	margin: 0px 0px 0px 60px;	
 }
 
 //LOGO
@@ -271,14 +273,13 @@ img#logo {
 article {
 	background-image:url('../img/foglio.png');
 	background-repeat: no-repeat;
-	margin: 30px 0px 0px 30px;
 	min-height: 615px;
 	max-height: 615px
-	height: 615px;
+	height: 670px;
 	min-width: 906px;
 	max-width: 906px;
-	width:906px;
-	padding: 55px 94px 0px 94px;
+	width:1000px;
+	padding: 55px 94px 40px 94px;
 }	
 
 //STRUTTURA ARTICOLO - TESTO + IMMAGINI
@@ -291,6 +292,7 @@ div.testo{
 	width: 210px;
 	float: left;
 	text-align: left;
+	display:inline;
 }
 div.testoLargo{
 	min-height: 490px;
@@ -301,6 +303,7 @@ div.testoLargo{
 	width: 390px;
 	float: left;
 	text-align: left;
+	display:inline;
 }
 	
 div.imgGallery{
@@ -312,6 +315,7 @@ div.imgGallery{
 	max-width: 680px;
 	width: 680px;
 	float: right;
+	display:inline;
 }
 
 div.imgGalleryCorta{
@@ -323,6 +327,7 @@ div.imgGalleryCorta{
 	max-width: 510px;
 	width: 510px;
 	float: right;
+	display:inline;
 }
 
 img.gallery{
@@ -330,6 +335,7 @@ img.gallery{
 	height: 160px;
 	width: 160px;
 	float: left;
+	display:inline;
 }
 		
 
@@ -347,11 +353,15 @@ div.piepagina {
 	text-align: right;
 	color: #8d202f;
 	font-size: 80%;
+	display:inline;
 }
 div.credits {
 	text-align: center;
 	font-size: 70%;
-	padding: 30px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+	display: visible;
+	float: left;
+	width: 100%;
 }
 div.credits a {
 	font-weight: normal;
@@ -363,12 +373,14 @@ div.credits a {
 .menu {
 	float: left;
 	margin: 0px 0px 0px 65px;
+	display:inline;
 }
 .menu ul li {
 	list-style-type: none;
 	float: left;
 	padding:0 12px 0 12px;
 	border-left:2px solid #666;
+	display:inline;
 }
 
 // rimuove il padding dal "primo figlio", dal primo LI 
@@ -402,6 +414,7 @@ div.chiSiamoSX{
 	min-width: 450px;
 	max-width: 450px;
 	width: 450px;
+	display:inline;
 }
 div.chiSiamoSXrusso{
 	float: left;
@@ -413,6 +426,7 @@ div.chiSiamoSXrusso{
 	min-width: 450px;
 	max-width: 450px;
 	width: 450px;
+	display:inline;
 }
 
 div.chiSiamoDX{
@@ -424,6 +438,7 @@ div.chiSiamoDX{
 	min-width: 450px;
 	max-width: 450px;
 	width: 450px;
+	display:inline;
 }
 
 div.chiSiamoDX img{
